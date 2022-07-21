@@ -1,0 +1,52 @@
+package com.globalogic;
+
+import java.util.Scanner;
+public class color {
+
+	public static void main(String[] args)  {
+		int month ;
+		Scanner sc = new Scanner(System.in);
+		System.out.print("enter your age");
+		month = sc.nextInt();
+	    if (month == 1) {
+	    	System.out.print("jan");
+	    }
+	    if (month == 2) {
+	    	System.out.print("feb");
+	    }
+	    if (month == 3) {
+	    	System.out.print("March");
+	    }
+	    if (month == 4) {
+	    	System.out.print("april");
+	    }
+	    if (month == 5) {
+	    	System.out.print("may");
+	    }
+	    if (month == 6) {
+	    	System.out.print("june");
+	    }
+	    if (month == 7) {
+	    	System.out.print("july");
+	    }
+	    if (month == 8) {
+	    	System.out.print("august");
+	    }
+	    if (month == 9) {
+	    	System.out.print("sep");
+	    }
+	    if (month == 10) {
+	      System.out.print("oct");
+	    }
+	    if (month == 11) {
+	    	System.out.print("nov");
+	    }
+	    if (month == 12) {
+	    	System.out.print("Dec");
+	    } else {
+	    	System.out.print("not exist");
+	    }
+
+	}
+
+}

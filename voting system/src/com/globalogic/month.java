@@ -1,0 +1,53 @@
+//Write a program to give the month num and print the month name 
+package com.globalogic;
+
+import java.util.Scanner;
+public class month {
+
+	public static void main(String[] args)  {
+		int month ;
+		Scanner sc = new Scanner(System.in);
+		System.out.print("enter your age:");
+		month = sc.nextInt();
+	    if (month == 1) {
+	    	System.out.print("jan");
+	    }
+	    else if (month == 2) {
+	    	System.out.print("feb");
+	    }
+	    else if (month == 3) {
+	    	System.out.print("March");
+	    }
+	    else if (month == 4) {
+	    	System.out.print("april");
+	    }
+	    else if (month == 5) {
+	    	System.out.print("may");
+	    }
+	    else if (month == 6) {
+	    	System.out.print("june");
+	    }
+	    else if (month == 7) {
+	    	System.out.print("july");
+	    }
+	    else if (month == 8) {
+	    	System.out.print("august");
+	    }
+	    else if (month == 9) {
+	    	System.out.print("sep");
+	    }
+	    else if (month == 10) {
+	      System.out.print("oct");
+	    }
+	    else if (month == 11) {
+	    	System.out.print("nov");
+	    }
+	    else if (month == 12) {
+	    	System.out.print("Dec");
+	    } else {
+	    	System.out.print("not exist");
+	    }
+
+	}
+
+}
